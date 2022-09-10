@@ -2,4 +2,7 @@ Japanese_Samurai_Fighting
 
 
 ![](https://github.com/VitRod/Japanese_Samurai_Fighting/blob/main/img/background.png)
-1[](https://github.com/VitRod/Japanese_Samurai_Fighting/blob/main/img/shop.png)
+![](https://github.com/VitRod/Japanese_Samurai_Fighting/blob/main/img/shop.png)
+
+![](https://pbs.twimg.com/media/FcS8nN_XEAATTCQ?format=png&name=small)
+
