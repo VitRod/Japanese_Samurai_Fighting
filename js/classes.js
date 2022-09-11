@@ -8,6 +8,8 @@ class Sprite{
         offset = { x: 0, y: 0 }
     }){
         this.position = position;
+        this.width = 50;
+        this.height = 150;
 
 
 
