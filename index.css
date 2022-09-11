@@ -2,3 +2,11 @@
     box-sizing: border-box;
     font-family: 'Press Start 2P', cursive;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
