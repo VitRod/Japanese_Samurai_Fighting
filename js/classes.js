@@ -33,7 +33,7 @@ class Sprite{
 
              //Position
              this.position.x - this.offset.x,
-
+             this.position.y - this.offset.y,
 
         );
 
