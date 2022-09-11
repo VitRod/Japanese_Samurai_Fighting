@@ -10,3 +10,8 @@ body{
     background-color: black;
     height: 100%;
 }
+
+.container{
+    display: flex; 
+    justify-content: space-evenly;
+}
