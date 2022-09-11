@@ -86,3 +86,10 @@ body{
     height: 30px;
     background-color: red;
 }
+
+#enemyHealth{
+    position: absolute;
+    background-color: #818cf8;
+    height: 30px;
+    top: 0; left:0; right: 0; bottom: 0;
+}
