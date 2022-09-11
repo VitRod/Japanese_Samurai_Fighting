@@ -16,6 +16,8 @@ class Sprite{
         this.framesMax = framesMax;
         this.offset = offset;
 
+        this.framesCurrent = 0;
+
 
 
     }
