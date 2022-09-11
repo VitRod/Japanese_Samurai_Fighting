@@ -23,7 +23,10 @@ class Sprite{
     }
 
     draw() {
+        context.drawImage(
+            this.image,
 
+        )
 
 
     }
