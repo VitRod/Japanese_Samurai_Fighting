@@ -13,6 +13,7 @@ class Sprite{
         this.image = new Image();
         this.image.src = imageSrc;
         this.scale = scale;
+        this.framesMax = framesMax;
 
     }
 
