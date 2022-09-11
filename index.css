@@ -81,3 +81,8 @@ body{
     border-bottom: 4px solid white;
     border-right: 4px solid white;
 }
+
+.enemy-health-red{
+    height: 30px;
+    background-color: red;
+}
