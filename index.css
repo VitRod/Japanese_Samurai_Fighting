@@ -53,3 +53,11 @@ body{
     background-color: red;
     width: 100%;
 }
+
+#playerHealth{
+    position: absolute;
+    background-color: #818cf8;
+    height: 30px;
+    top: 0; right: 0; bottom: 0;
+    width: 100%;
+}
