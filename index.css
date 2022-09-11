@@ -24,3 +24,8 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.game-container{
+    position: relative; 
+    display: inline-block;
+}
