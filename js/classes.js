@@ -12,7 +12,7 @@ class Sprite{
         this.height = 150;
         this.image = new Image();
         this.image.src = imageSrc;
-
+        this.scale = scale;
 
     }
 
