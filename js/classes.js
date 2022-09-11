@@ -18,7 +18,7 @@ class Sprite{
 
         this.framesCurrent = 0;
         this.framesElapsed = 0;
-
+        this.framesHold = 5;
 
     }
 
