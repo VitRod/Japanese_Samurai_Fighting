@@ -93,3 +93,12 @@ body{
     height: 30px;
     top: 0; left:0; right: 0; bottom: 0;
 }
+
+#displayResult{
+    position: absolute;
+    color:black;
+    align-items: center;
+    justify-content: center;
+    left: 0; right: 0; top: 0; bottom:0;
+    display:none;
+}
