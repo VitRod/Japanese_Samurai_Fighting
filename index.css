@@ -61,3 +61,15 @@ body{
     top: 0; right: 0; bottom: 0;
     width: 100%;
 }
+
+#timer{
+    background-color: black ; 
+    height: 50px; 
+    width: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border: 4px solid white;
+}
