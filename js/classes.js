@@ -14,6 +14,9 @@ class Sprite{
         this.image.src = imageSrc;
         this.scale = scale;
         this.framesMax = framesMax;
+        this.offset = offset;
+
+
 
     }
 
