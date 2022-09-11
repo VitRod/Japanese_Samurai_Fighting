@@ -7,10 +7,10 @@ class Sprite{
         framesMax = 1,
         offset = { x: 0, y: 0 }
     }){
+        this.position = position;
 
 
 
-        
     }
 
 
