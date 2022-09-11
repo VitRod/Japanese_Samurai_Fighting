@@ -27,7 +27,7 @@ class Sprite{
             this.image,
             //Crop Position
             this.framesCurrent * (this.image.width / this.framesMax ),
-
+            0,
 
 
         )
