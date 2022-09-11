@@ -31,6 +31,8 @@ class Sprite{
             this.image.width / this.framesMax,
             this.image.height,
 
+             //Position
+
 
 
         );
