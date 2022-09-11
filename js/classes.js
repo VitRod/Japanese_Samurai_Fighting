@@ -17,7 +17,7 @@ class Sprite{
         this.offset = offset;
 
         this.framesCurrent = 0;
-
+        this.framesElapsed = 0;
 
 
     }
