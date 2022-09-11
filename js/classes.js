@@ -30,7 +30,7 @@ class Sprite{
             0,
             this.image.width / this.framesMax,
 
-        )
+        );
 
 
     }
