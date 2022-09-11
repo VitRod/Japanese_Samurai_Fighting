@@ -32,7 +32,7 @@ class Sprite{
             this.image.height,
 
              //Position
-
+             this.position.x - this.offset.x,
 
 
         );
