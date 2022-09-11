@@ -37,3 +37,13 @@ body{
     align-items: center; 
     padding: 20px;
 }
+
+.player-health-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+}
