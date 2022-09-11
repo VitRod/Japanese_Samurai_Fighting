@@ -22,7 +22,11 @@ class Sprite{
 
     }
 
+    draw() {
 
+
+
+    }
 
 
 
