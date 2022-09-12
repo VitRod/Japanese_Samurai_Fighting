@@ -87,6 +87,16 @@ class Fighter extends Sprite{
         this.lastkey;
         this.width = 50;
         this.height = 150;
+        this.attackBox = {
+            position: {
+                x: this.position.x,
+                y: this.position.y
+                
+            },
+            width: attackBox.width,
+            height: attackBox.height,
+            offset : attackBox.offset
+        };
 
 
 
