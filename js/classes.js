@@ -63,7 +63,8 @@ class Fighter extends Sprite{
     //Require : Position and Velocity of Characters
     constructor({ position,
         velocity,
-
+        imageSrc,
+        scale = 1,
 
 
 }
