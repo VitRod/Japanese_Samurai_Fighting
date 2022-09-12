@@ -64,6 +64,7 @@ class Fighter extends Sprite{
     constructor({ position,
         velocity,
         imageSrc,
+        scale = 1,
 
 
 }
