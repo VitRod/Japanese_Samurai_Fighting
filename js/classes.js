@@ -58,3 +58,11 @@ class Sprite{
 }
 
 //Character Class
+class Fighter extends Sprite{
+
+
+
+
+
+
+}
