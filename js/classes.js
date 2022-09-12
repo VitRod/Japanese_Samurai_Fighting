@@ -75,6 +75,15 @@ class Fighter extends Sprite{
         }
     }) {
 
+        super({
+            position,
+            imageSrc,
+            scale,
+            framesMax,
+            offset
+        })
+
+
 
     }
 
