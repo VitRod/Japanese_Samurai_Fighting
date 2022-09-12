@@ -66,5 +66,6 @@ class Fighter extends Sprite{
         imageSrc,
         scale = 1,
         framesMax = 1,
+        offset = { x: 0, y: 0 },
 
 }
