@@ -98,7 +98,7 @@ class Fighter extends Sprite{
             offset : attackBox.offset
         };
         this.isAttacking = false;
-
+        this.health = 100;
 
     }
 
