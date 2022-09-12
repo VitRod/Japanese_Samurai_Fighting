@@ -40,7 +40,7 @@ class Sprite{
     }
 
     animateFrames() {
-
+        this.framesElapsed++;
 
 
     }
