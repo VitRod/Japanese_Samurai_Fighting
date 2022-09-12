@@ -61,7 +61,7 @@ class Sprite{
 class Fighter extends Sprite{
     //Generate Characters
     //Require : Position and Velocity of Characters
-
+    constructor({ position,
 
 
 
