@@ -83,7 +83,8 @@ class Fighter extends Sprite{
             offset
         })
 
-
+        this.velocity = velocity;
+        this.lastkey;
 
     }
 
