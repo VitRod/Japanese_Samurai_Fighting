@@ -50,7 +50,9 @@ class Sprite{
         }
     }
 
-
-
+    update() {
+        this.draw();
+        this.animateFrames();
+        
+    }
 }
-
