@@ -86,6 +86,9 @@ class Fighter extends Sprite{
         this.velocity = velocity;
         this.lastkey;
         this.width = 50;
+        this.height = 150;
+
+
 
     }
 
