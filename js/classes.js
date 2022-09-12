@@ -45,6 +45,7 @@ class Sprite{
             if (this.framesCurrent < this.framesMax - 1) {
                 this.framesCurrent++;
             } else {
+                this.framesCurrent = 0;
 
     }
 
