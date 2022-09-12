@@ -65,6 +65,6 @@ class Fighter extends Sprite{
         velocity,
         imageSrc,
         scale = 1,
-
+        framesMax = 1,
 
 }
