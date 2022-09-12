@@ -56,3 +56,5 @@ class Sprite{
         
     }
 }
+
+//Character Class
