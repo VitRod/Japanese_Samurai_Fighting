@@ -67,5 +67,16 @@ class Fighter extends Sprite{
         scale = 1,
         framesMax = 1,
         offset = { x: 0, y: 0 },
+        sprites,
+        attackBox = {
+            offset: {},
+            width: undefined,
+            height: undefined
+        }
+    }) {
+
+
+    }
+
 
 }
