@@ -133,6 +133,14 @@ class Fighter extends Sprite{
         }
 
         // Check If Player doesn't go behind left side of Canvas Width
+        if (this.position.x < 0) {
+            this.position.x += 1;
+            // Check If Player doesn't go behind right side of Canvas Width
+        } else if (this.position.x > 950) {
+            this.position.x -= 1;
+        } else {
+            this.position.x += this.velocity.x;
+        }
 
 
 
