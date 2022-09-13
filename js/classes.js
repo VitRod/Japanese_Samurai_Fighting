@@ -125,6 +125,7 @@ class Fighter extends Sprite{
         this.attackBox.position.y = this.position.y + this.attackBox.offset.y;
 
         //Updating Position with Velocity
+        // Check If Player doesn't over Canvas Height
 
 
 
