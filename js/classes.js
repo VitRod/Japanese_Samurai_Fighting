@@ -142,6 +142,8 @@ class Fighter extends Sprite{
             this.position.x += this.velocity.x;
         }
 
+         //To make sure Character doesn't fall through floor of Canvas
+
 
 
 
