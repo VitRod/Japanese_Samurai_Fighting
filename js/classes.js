@@ -111,9 +111,13 @@ class Fighter extends Sprite{
             sprites[sprite].image.src = sprites[sprite].imageSrc;
 
         }
+     
+    }
 
 
-        
+    update() {
+
+
     }
 
 
