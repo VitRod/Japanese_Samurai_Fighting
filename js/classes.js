@@ -126,6 +126,11 @@ class Fighter extends Sprite{
 
         //Updating Position with Velocity
         // Check If Player doesn't over Canvas Height
+        if (this.position.y < 0) {
+            this.position.y += 1
+        } else {
+            this.position.y += this.velocity.y;
+        }
 
 
 
