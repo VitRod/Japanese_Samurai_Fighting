@@ -143,12 +143,17 @@ class Fighter extends Sprite{
         }
 
          //To make sure Character doesn't fall through floor of Canvas
-
-
-
-
-
+         if (this.position.y + this.height + this.velocity.y >= canvas.height - 96) {
+            this.velocity.y = 0;
+            this.position.y = 330;
+        } else {
+            //Giving Gravity to Characters
+            this.velocity.y += gravity;
+        }
     }
 
+
+
+    
 
 }
