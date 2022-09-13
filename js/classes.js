@@ -116,6 +116,10 @@ class Fighter extends Sprite{
 
 
     update() {
+//Updating Postion of Characters according to commands
+
+
+
 
 
     }
