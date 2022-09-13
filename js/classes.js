@@ -132,6 +132,8 @@ class Fighter extends Sprite{
             this.position.y += this.velocity.y;
         }
 
+        // Check If Player doesn't go behind left side of Canvas Width
+
 
 
 
