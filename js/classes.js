@@ -158,7 +158,7 @@ class Fighter extends Sprite{
     }
 
     takeHit() {
-
+        this.health -= 20;
 
     }
 
