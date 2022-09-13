@@ -97,6 +97,7 @@ class Fighter extends Sprite{
             height: attackBox.height,
             offset : attackBox.offset
         };
+
         this.isAttacking = false;
         this.health = 100;
         this.framesCurrent = 0;
@@ -105,7 +106,11 @@ class Fighter extends Sprite{
         this.sprites = sprites;
         this.dead = false;
 
+        for (const sprite in sprites) {
+            sprites[sprite].image = new Image();
+            sprites[sprite].image.src = sprites[sprite].imageSrc;
 
+        }
 
 
         
