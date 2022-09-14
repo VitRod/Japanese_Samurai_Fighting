@@ -168,6 +168,7 @@ class Fighter extends Sprite{
     }
 
     switchSprite(sprite) {
+        //Overridiing When Attack
 
 
 
