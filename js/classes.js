@@ -189,6 +189,17 @@ class Fighter extends Sprite{
             return
         }
 
+        switch (sprite) {
+
+
+
+
+
+
+
+            
+        }
+
 
 
 
