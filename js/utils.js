@@ -12,6 +12,7 @@ function rectangularCollision(rectangle1, rectangle2) {
 function determineWinner({ player, enemy }) {
     //Checking Who Won Match 
     let displayResult = document.getElementById('displayResult');
+    clearTimeout(timerId);
    
 
 
