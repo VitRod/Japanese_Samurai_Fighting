@@ -9,3 +9,11 @@ function rectangularCollision(rectangle1, rectangle2) {
 }
 
 //Determine Winner when Timer hits Zero
+function determineWinner({ player, enemy }) {
+
+
+
+
+
+
+}
