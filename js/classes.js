@@ -249,10 +249,3 @@ class Fighter extends Sprite{
 }
 }
 
-
-
-
-
-
-
-}
