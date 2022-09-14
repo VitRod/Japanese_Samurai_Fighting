@@ -13,6 +13,7 @@ function determineWinner({ player, enemy }) {
     //Checking Who Won Match 
     let displayResult = document.getElementById('displayResult');
     clearTimeout(timerId);
+    displayResult.style.display = 'flex';
    
 
 
