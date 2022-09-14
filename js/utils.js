@@ -16,10 +16,11 @@ function determineWinner({ player, enemy }) {
     displayResult.style.display = 'flex';
    
 
-
-
-
-
-
-
-} 
+    if (player.health === enemy.health) {
+        displayResult.innerHTML = 'Draw';   
+    } else if (player.health > enemy.health) {
+        displayResult.innerHTML = 'Player 1 Wins';
+    } else if (player.health < enemy.health) {
+        displayResult.innerHTML = 'Player 2 Wins';
+    }
+}
