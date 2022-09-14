@@ -237,19 +237,17 @@ class Fighter extends Sprite{
                 }
             break;
 
-
-
-
-        }
-
-
-
-
-
-
-
+            case 'death':
+                if (this.image !== this.sprites.death.image) {
+                    this.image = this.sprites.death.image;
+                    this.framesMax = this.sprites.death.framesMax;
+                    this.framesCurrent = 0;
+                }
+            break;
+        
     }
-
+}
+}
 
 
 
