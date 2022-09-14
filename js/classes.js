@@ -174,6 +174,7 @@ class Fighter extends Sprite{
             ) {
             return;
         }
+        //Overriding When Take hit
 
 
 
