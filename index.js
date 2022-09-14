@@ -1,1 +1,3 @@
-2342342
+//Setting up Canvas
+const canvas = document.querySelector('canvas');
+const context = canvas.getContext('2d');
