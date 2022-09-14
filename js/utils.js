@@ -32,3 +32,8 @@ let timerId;
 //Countdown
 function decreaseTimer() {
     //CountDown Function
+    if (timer > 0) {
+        timerId = setTimeout(decreaseTimer, 1000);
+        timer--;
+        document.getElementById('timer').innerHTML = timer;
+    }
