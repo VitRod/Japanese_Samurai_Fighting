@@ -24,3 +24,7 @@ function determineWinner({ player, enemy }) {
         displayResult.innerHTML = 'Player 2 Wins';
     }
 }
+
+//Timer
+let timer = 60;
+let timerId;
