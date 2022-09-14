@@ -167,6 +167,21 @@ class Fighter extends Sprite{
         }
     }
 
+    switchSprite(sprite) {
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
 
 
 
