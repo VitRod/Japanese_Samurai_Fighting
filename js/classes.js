@@ -175,7 +175,12 @@ class Fighter extends Sprite{
             return;
         }
         //Overriding When Take hit
-
+        if (this.image === this.sprites.takeHit.image &&
+            this.framesCurrent < this.sprites.takeHit.framesMax - 1
+            
+        ) {
+            return
+        }
 
 
 
