@@ -37,3 +37,11 @@ function decreaseTimer() {
         timer--;
         document.getElementById('timer').innerHTML = timer;
     }
+
+    if (timer === 0) {
+        //Checking Who Wins After Countdown Hit Zero
+        determineWinner({ player, enemy });
+        
+    }
+
+}
