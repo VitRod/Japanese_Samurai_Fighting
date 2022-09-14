@@ -190,6 +190,13 @@ class Fighter extends Sprite{
         }
 
         switch (sprite) {
+            case 'idle':
+                if (this.image !== this.sprites.idle.image) {
+                    this.image = this.sprites.idle.image;
+                    this.framesMax = this.sprites.idle.framesMax;
+                    this.framesCurrent = 0;
+                };
+                break;
 
 
 
@@ -197,7 +204,6 @@ class Fighter extends Sprite{
 
 
 
-            
         }
 
 
