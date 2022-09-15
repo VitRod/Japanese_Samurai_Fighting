@@ -192,7 +192,8 @@ const keys = {
 }
 
 
-
+//CountDown
+decreaseTimer();
 
 
 
