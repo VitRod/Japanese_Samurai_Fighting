@@ -117,6 +117,17 @@ const enemy = new Fighter({
         
     },
 
+    scale: 2.5,
+
+    offset: {
+        x: 215,
+        y: 167
+     
+    },
+
+
+
+
 
 
 
