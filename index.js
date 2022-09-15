@@ -111,6 +111,12 @@ const enemy = new Fighter({
         y: 0
     },
 
+    velocity: {
+        x: 0,
+        y: 0
+        
+    },
+
 
 
 
