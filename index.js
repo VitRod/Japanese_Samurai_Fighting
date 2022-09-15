@@ -342,12 +342,10 @@ window.addEventListener('keydown', (event) => {
                 player.attack();
                 break;
         }
-
-
-
-
     }
 
+
+//Enemy Control
 
 
 
