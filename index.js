@@ -317,3 +317,7 @@ function animate() {
 
 
 animate();
+
+
+
+//Adding Movement with Event Listners
