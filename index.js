@@ -42,6 +42,20 @@ const shop = new Sprite({
 //Character Object
 //Player Object
 const player = new Fighter({
+    position:{
+        x: 220,
+        y: 0
+    },
+
+
+
+
+
+
+
+
+
+})
 
 
 
