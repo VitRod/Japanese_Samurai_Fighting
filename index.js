@@ -322,3 +322,19 @@ animate();
 
 //Adding Movement with Event Listners
 //KeyDown 
+
+window.addEventListener('keydown', (event) => {
+    if (!player.dead) {
+
+
+
+
+
+    }
+
+
+
+
+}
+
+)
