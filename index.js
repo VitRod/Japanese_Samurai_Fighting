@@ -346,9 +346,24 @@ window.addEventListener('keydown', (event) => {
 
 
 //Enemy Control
-
-
-
+if (!enemy.dead) {
+    switch (event.key) {
+        case 'ArrowRight':
+            keys.ArrowRight.pressed = true;
+            enemy.lastkey = 'ArrowRight';
+            break;
+        case 'ArrowLeft':
+            keys.ArrowLeft.pressed = true;
+            enemy.lastkey = 'ArrowLeft';
+            break;
+        case 'ArrowUp':
+            enemy.velocity.y = jumpStregth;
+            break;
+        case '0':
+            enemy.attack();
+            break;
+        }
 }
-
-)
+     
+}
+);
