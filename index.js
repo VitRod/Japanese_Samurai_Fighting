@@ -106,7 +106,10 @@ const player = new Fighter({
 
 //Enemy Object
 const enemy = new Fighter({
-
+    position:{
+        x: 710,
+        y: 0
+    },
 
 
 
