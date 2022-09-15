@@ -1,6 +1,8 @@
 Japanese_Samurai_Fighting
 
 
+![](https://pbs.twimg.com/media/FctnJRKWAAETMNs?format=jpg&name=large)
+![](https://pbs.twimg.com/media/Fctmx70WYAERoTF?format=jpg&name=large)
 ![](https://pbs.twimg.com/media/FctjecwWQAAHCYk?format=jpg&name=large)
 ![](https://pbs.twimg.com/media/FctgPJrXEAIqfrC?format=jpg&name=large)
 ![](https://pbs.twimg.com/media/Fcq6yUiXkAAQSdP?format=jpg&name=large)
