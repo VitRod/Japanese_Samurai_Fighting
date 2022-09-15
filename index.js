@@ -10,4 +10,4 @@ canvas.height = 576;
 const gravity = 0.7;
 const fwdSpeed = 5;
 const bwdSpeed = -5;
-const jumpStregth = -20;
+const jumpStregth = -20;   
