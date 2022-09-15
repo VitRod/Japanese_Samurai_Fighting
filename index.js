@@ -11,3 +11,6 @@ const gravity = 0.7;
 const fwdSpeed = 5;
 const bwdSpeed = -5;
 const jumpStregth = -20;   
+
+//Filling the Canvas
+context.fillRect(0, 0, canvas.width, canvas.height);
