@@ -39,6 +39,8 @@ const shop = new Sprite({
 });
 
 
+//Character Object
+
 
 
 
