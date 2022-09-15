@@ -4,4 +4,4 @@ const context = canvas.getContext('2d');
 
 //Canvas Area
 canvas.width = 1024;
-canvas.height = 576;
+canvas.height = 576;   
