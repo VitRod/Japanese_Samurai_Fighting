@@ -37,3 +37,132 @@ const shop = new Sprite({
     framesMax: 6
 
 });
+
+
+
+
+
+
+//================================
+
+//Animate The Canvas 
+function animate() {
+    //Recursuive Function
+
+    window.requestAnimationFrame(animate);
+    context.fillStyle = 'black';
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    //Rendering Graphics
+    background.update();
+    shop.update();
+
+    //Opacity on backgroud
+    context.fillStyle = 'rgba(255,255,255,0.15)';
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    //Rendering Characters Hitbox
+    player.update();
+    enemy.update();
+
+    //Player Movement
+    player.velocity.x = 0;
+
+    if (keys.a.pressed && player.lastkey === 'a') {
+        //Runing Left
+        player.velocity.x = bwdSpeed;
+        player.switchSprite('run');
+
+    } else if (keys.d.pressed && player.lastkey === 'd') {
+        //Runing Right
+        player.velocity.x = fwdSpeed;
+        player.switchSprite('run');
+    } else {
+        //Standing Idle
+        player.switchSprite('idle');
+    }
+
+    //Jumping
+    if (player.velocity.y < 0) {
+        player.switchSprite('jump');   
+    } else if (player.velocity.y > 0) {
+        player.switchSprite('fall');   
+        
+    }
+
+     //Enemy Movement
+     enemy.velocity.x = 0;
+     if (keys.ArrowLeft.pressed && enemy.lastkey === 'ArrowLeft') {
+         //Runing Left
+         enemy.velocity.x = bwdSpeed;
+         enemy.switchSprite('run');
+ 
+     } else if (keys.ArrowRight.pressed && enemy.lastkey === 'ArrowRight') {
+         //Runing Right
+         enemy.velocity.x = fwdSpeed;
+         enemy.switchSprite('run');
+ 
+     } else {
+         //Standing Idle
+         enemy.switchSprite('idle');
+     }
+ 
+     //Jumping
+     if (enemy.velocity.y < 0) {
+         enemy.switchSprite('jump');   
+     } else if (enemy.velocity.y > 0) {
+         enemy.switchSprite('fall');   
+         
+     }
+ 
+     //Detect For Collision
+     //Attack on Enemy
+     if (
+         rectangularCollision(player, enemy) &&
+         player.isAttacking &&
+         player.framesCurrent === 4
+         
+     ) {
+         enemy.takeHit();
+         player.isAttacking = false;
+         
+         gsap.to('#enemyHealth', {
+             width:enemy.health + '%'
+         })
+     }
+     //Player Misses
+     if (player.isAttacking && player.framesCurrent === 4) {
+         player.isAttacking = false;
+     }
+ 
+     //Attack on Player
+     if (
+         rectangularCollision(enemy, player) &&
+         enemy.isAttacking &&
+         enemy.framesCurrent === 2
+         
+     ) {
+         player.takeHit();
+         enemy.isAttacking = false;
+         
+         gsap.to('#playerHealth', {
+             width:player.health + '%'
+         })
+     }
+     //Player Misses
+     if (enemy.isAttacking && enemy.framesCurrent === 2) {
+         enemy.isAttacking = false;
+     }
+ 
+     //End Game When Health is Zero
+     if (player.health <= 0 || enemy.health <= 0) {
+         determineWinner({ player, enemy });
+     }
+     
+ 
+ }
+
+
+
+
+    animate();
