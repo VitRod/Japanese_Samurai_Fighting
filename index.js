@@ -91,14 +91,17 @@ const player = new Fighter({
         }
     },
 
+    attackBox: {
+        offset: {
+            x: 100,
+            y: 50
+            
+        },
+        width: 140,
+        height: 50
 
-
-
-
-
-
+    }
 })
-
 
 
 
