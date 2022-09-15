@@ -196,10 +196,6 @@ const keys = {
 decreaseTimer();
 
 
-
-
-
-
 //================================
 
 //Animate The Canvas 
@@ -320,6 +316,4 @@ function animate() {
  }
 
 
-
-
-    animate();
+animate();
