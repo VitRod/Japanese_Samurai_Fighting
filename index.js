@@ -367,3 +367,26 @@ if (!enemy.dead) {
      
 }
 );
+
+
+//KeyUp
+window.addEventListener('keyup', (event) => {
+    switch (event.key) {
+        //Player Control
+        case 'd':
+            keys.d.pressed = false;
+            break;
+        case 'a':
+            keys.a.pressed = false;
+            break;
+        
+        //Enemy Control
+        case 'ArrowRight':
+            keys.ArrowRight.pressed = false;
+            break;
+        case 'ArrowLeft':
+            keys.ArrowLeft.pressed = false;
+            break;
+    }
+}
+);
