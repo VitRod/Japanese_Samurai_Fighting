@@ -104,13 +104,15 @@ const player = new Fighter({
 })
 
 
+//Enemy Object
+const enemy = new Fighter({
 
 
 
 
 
 
-
+})
 
 
 //================================
