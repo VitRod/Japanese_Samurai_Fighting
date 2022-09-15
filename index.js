@@ -170,6 +170,35 @@ const enemy = new Fighter({
 })
 
 
+//Pressed Keys
+const keys = {
+    a: {
+        pressed: false
+        
+    },
+    d: {
+        pressed: false
+
+    },
+
+    ArrowLeft: {
+        pressed: false
+
+    },
+    ArrowRight: {
+        pressed: false
+        
+    }
+}
+
+
+
+
+
+
+
+
+
 //================================
 
 //Animate The Canvas 
