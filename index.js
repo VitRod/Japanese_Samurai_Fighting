@@ -325,7 +325,23 @@ animate();
 
 window.addEventListener('keydown', (event) => {
     if (!player.dead) {
-
+        switch (event.key) {
+            //Player Control
+            case 'd':
+                keys.d.pressed = true;
+                player.lastkey = 'd';
+                break;
+            case 'a':
+                keys.a.pressed = true;
+                player.lastkey = 'a';
+                break;
+            case 'w':
+                player.velocity.y = jumpStregth;
+                break;
+            case ' ':
+                player.attack();
+                break;
+        }
 
 
 
