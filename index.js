@@ -156,10 +156,16 @@ const enemy = new Fighter({
         }
     },
 
-
-
-
-
+    attackBox: {
+        offset: {
+            x: -170,
+            y: 50
+            
+        },
+        width: 170,
+        height: 50
+        
+    }
 
 })
 
