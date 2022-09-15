@@ -14,3 +14,13 @@ const jumpStregth = -20;
 
 //Filling the Canvas
 context.fillRect(0, 0, canvas.width, canvas.height);
+
+//Sprite(Graphics) Object
+//Background
+const background = new Sprite({
+    position: {
+        x: 0,
+        y: 0 
+    },
+    imageSrc:'./img/background.png'
+});
