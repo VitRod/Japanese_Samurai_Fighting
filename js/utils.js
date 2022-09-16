@@ -6,15 +6,15 @@ function rectangularCollision(rectangle1, rectangle2) {
         rectangle1.attackBox.position.y + rectangle1.attackBox.height >= rectangle2.position.y &&
         rectangle1.attackBox.position.y <= rectangle2.position.y + rectangle2.height
     )
+    
 }
 
-//Determine Winner when Timer hits Zero
+//TDetermine Winner when Timer hits Zero
 function determineWinner({ player, enemy }) {
     //Checking Who Won Match 
     let displayResult = document.getElementById('displayResult');
     clearTimeout(timerId);
     displayResult.style.display = 'flex';
-   
 
     if (player.health === enemy.health) {
         displayResult.innerHTML = 'Draw';   
@@ -37,7 +37,6 @@ function decreaseTimer() {
         timer--;
         document.getElementById('timer').innerHTML = timer;
     }
-
     if (timer === 0) {
         //Checking Who Wins After Countdown Hit Zero
         determineWinner({ player, enemy });
