@@ -355,10 +355,10 @@ window.addEventListener('keydown', (event) => {
 //KeyUp
 window.addEventListener('keyup', (event) => {
     switch (event.key) {
-
+    //Player Control
 
     
-        //Player Control
+        
         case 'd':
             keys.d.pressed = false;
             break;
