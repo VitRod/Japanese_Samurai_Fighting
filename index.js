@@ -363,10 +363,10 @@ window.addEventListener('keyup', (event) => {
             keys.a.pressed = false;
             break;
 
-        
+         //Enemy Control
        
         
-        //Enemy Control
+       
         case 'ArrowRight':
             keys.ArrowRight.pressed = false;
             break;
