@@ -359,12 +359,12 @@ window.addEventListener('keyup', (event) => {
         case 'd':
             keys.d.pressed = false;
             break;
-
-
-        
         case 'a':
             keys.a.pressed = false;
             break;
+
+        
+       
         
         //Enemy Control
         case 'ArrowRight':
